@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malika Rattan's Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container blue-theme"> <!-- Start with blue theme -->
+        <h1> Malika's Todo List</h1>
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Add a new task..." />
+            <button id="addButton">Add Task</button>
+        </div>
+        <div id="aiResponse"></div>
+        <ul id="taskList"></ul>
+        <div id="taskStats"></div>
+        <div class="filter-group">
+            <button onclick="filterTasks('all')" class="filter-button all-button">All</button>
+            <button onclick="filterTasks('completed')" class="filter-button completed-button">Completed</button>
+            <button onclick="filterTasks('pending')" class="filter-button pending-button">Pending</button>
+        </div>
+        <div class="color-options">
+            <br>
+            <label for="colorTheme">Select Color Theme:</label>
+            <select id="colorTheme" onchange="changeColorTheme(this.value)">
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="purple">Purple</option>
+            </select>
+        </div>
+        <br>
+        <div id="footer">
+            <p>Created by Malika Rattan</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

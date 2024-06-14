@@ -42,10 +42,6 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements, 
 
 This project is licensed under the [GNU General Public License (GPL) v3](LICENSE) - see the LICENSE file for details.
 
-## Acknowledgments
-
-- Inspiration: [Provide any inspiration or resources you used]
-
 ## Author
 
 - Malika Rattan - [GitHub](https://github.com/MalikaRattan)
